@@ -1,15 +1,15 @@
 <p>
   <a href="https://roots.io/bedrock/">
-    <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" width="33%" height="60px">
+    <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" width="32%" height="50px">
   </a>
   
   <a href="https://roots.io/sage/">
-    <img alt="Sage" width="33%" height="60px" src="https://camo.githubusercontent.com/816698628628ce5df08887232d124acb9057ef5b9ecbf860fbefc3c40fa3a4b9/68747470733a2f2f63646e2e726f6f74732e696f2f6170702f75706c6f6164732f6c6f676f2d736167652e737667">
+    <img alt="Sage" width="32%" height="50px" src="https://camo.githubusercontent.com/816698628628ce5df08887232d124acb9057ef5b9ecbf860fbefc3c40fa3a4b9/68747470733a2f2f63646e2e726f6f74732e696f2f6170702f75706c6f6164732f6c6f676f2d736167652e737667">
   </a>
 
 
   <a href="https://ddev.com/">
-    <img style="background-color: white; padding: 0.3em; border-radius: 5px;" alt="DDEV" width="33%" height="60px" src="https://camo.githubusercontent.com/130a145fe53e55281e0c11867bb89d7b9370cacc7dfe304a15a83fec05195c55/68747470733a2f2f646465762e636f6d2f6c6f676f732f646465762e737667">
+    <img style="background-color: white; padding: 0.3em; border-radius: 5px;" alt="DDEV" width="32%" height="50px" src="https://camo.githubusercontent.com/130a145fe53e55281e0c11867bb89d7b9370cacc7dfe304a15a83fec05195c55/68747470733a2f2f646465762e636f6d2f6c6f676f732f646465762e737667">
   </a>
 
 </p>
