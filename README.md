@@ -123,6 +123,6 @@ yarn dev
 Now the local development server should be listening on localhost port 5000 and automatically update via HMR when changes are made to the `my-sage-theme/app/resources/views` directory!
 
 ## Troubleshooting
-Let me know if I missed a step or if something seems off. There are a lot of pieces to put together to make this work, and I very easily could have left something out. I also haven't attempted building the project from this repository yet, but my hope is that it works out of the box. Thanks! 
+Let me know if I missed a step or if something seems off. There are a lot of pieces to put together to make this work, and I very easily could have left something out. I also haven't attempted rebuilding the project again just from this repository yet, but my hope is that it works out of the box. Thanks! 
 
 -Ryan
