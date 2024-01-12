@@ -18,7 +18,9 @@
 
 # Local Wordpress With Roots Bedrock and Sage
 
-This is a complete setup for hosting a wordpress environment locally using Docker-based [DDEV](https://ddev.com/). It uses the [Bedrock](https://roots.io/bedrock/) Wordpress boilerplate code from [Roots.io](https://roots.io/), as well as their [Sage](https://roots.io/sage/) theme.
+This is a complete setup for hosting a wordpress environment locally using Docker-based [DDEV](https://ddev.com/). It uses the [Bedrock](https://roots.io/bedrock/) Wordpress boilerplate code from [Roots.io](https://roots.io/), as well as their [Sage](https://roots.io/sage/) theme. This works on Windows Subsystem for Linux (WSL2) running Ubuntu as the distro (and it's quite fast), and should run on Macs and bare metal Linux just fine. I am using it with Docker CE installed directly in WSL, but it should word with docker desktop as well. 
+
+I originally wanted to use Roots Trellis to set up my local Wordpress environment, but it was a real challenge getting Vagrant to play nicely on WSL. It doesn't like the Linux `home/user` filesystem at all, and in WSL you take a noticeable performance hit if you move anything over to the `mnt/c` DrvFs file system. There was also the issue of having to communicate with the Vagrant provider on the Windows desktop, SSHing the virtual machine, and updating the Windows hosts file through WSL. With DDEV and Docker, everything runs smoothly while keeping the environment nicely contained, and I would guess that it is much less of a CPU drain than a full on virtual machine. I admittedly was a little confused when trying to set up the bud/sage development urls and proxy, so I think I will need to revisit that, but for now I am looking forward to diving into developing with Blade!
 
 ## Getting Started
 #### Install DDEV
